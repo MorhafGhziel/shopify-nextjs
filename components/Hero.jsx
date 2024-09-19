@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import { Star } from "lucide-react";
-import HeroImg1 from "@/public/HeroImg-1.svg";
-import HeroImg2 from "@/public/HeroImg-2.svg";
+import HeroImg1 from "@/public/HeroImg1.svg";
+import HeroImg2 from "@/public/HeroImg2.svg";
 import CursoulImg from "@/public/CursoulImg.svg";
-import CursoulSmImg1 from "@/public/CursoulSmImg-1.svg";
+import CursoulSmImg1 from "@/public/CursoulSmImg1.svg";
 import CursoulSmImg2 from "@/public/CursoulSmImg2.svg";
 
 const Hero = () => {
