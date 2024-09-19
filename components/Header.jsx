@@ -18,11 +18,20 @@ const Header = () => {
         className="min-w-full md:hidden"
       />
       <div className="container">
-        <div className="py-[34px] px-[29px] gap-11 flex">
+        <div className="py-[34px] px-[29px] gap-11 flex items-center">
           <Image src={FireBeeLogo} alt="FireBee Logo" />
-          <nav className="hidden lg:inline-block">
+          <nav className="hidden lg:block space-x-14">
             <a href="#" className="text-xl tracking-wide">
               How It Works
+            </a>
+            <a href="#" className="text-xl tracking-wide">
+              Signals
+            </a>
+            <a href="#" className="text-xl tracking-wide">
+              Reviews
+            </a>
+            <a href="#" className="text-xl tracking-wide">
+              Blog
             </a>
           </nav>
         </div>
