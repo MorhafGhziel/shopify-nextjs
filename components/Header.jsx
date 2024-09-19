@@ -5,6 +5,7 @@ import HeaderBgMb from "@/public/HeaderBgMb.svg";
 import FireBeeLogo from "@/public/FireBeeLogo.svg";
 import ProfileImg from "@/public/Profile.svg";
 import Link from "next/link";
+import MenuIcon from "@/public/MenuIcon.svg";
 
 const Header = () => {
   return (
@@ -19,7 +20,7 @@ const Header = () => {
         alt="Header Bg Mb"
         className="min-w-full md:hidden"
       />
-      <nav className="">
+      <nav>
         <div className="py-[18px] px-[30px]">
           <div className="flex justify-between h-16">
             <div className="flex">
@@ -55,11 +56,14 @@ const Header = () => {
                 </Link>
               </div>
             </div>
-            <div className=" sm:ml-6 sm:flex sm:gap-10 justify-center items-center">
-              <button className="bg-[#07C961] text-white w-[154px] h-[65px] rounded-full font-poppins">
+            <div className="flex items-center sm:ml-6 sm:gap-10">
+              <button className="bg-[#07C961] text-white w-[112px] sm:w-[154px] sm:h-[65px] h-[39px] rounded-full font-poppins">
                 Buy Now
               </button>
-              <div className="bg-[#4B93D0] h-[53px] w-[53px] justify-center items-center flex rounded-full">
+              <div className="ml-4 block sm:hidden">
+                <Image src={MenuIcon} alt="Menu Icon" className="block" />
+              </div>
+              <div className="bg-[#4B93D0] h-[53px] w-[53px] justify-center items-center rounded-full hidden md:flex">
                 <Image src={ProfileImg} alt="Profile Img" />
               </div>
             </div>
