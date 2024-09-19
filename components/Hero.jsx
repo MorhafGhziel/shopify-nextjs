@@ -33,8 +33,7 @@ const Hero = () => {
               <Image
                 src={CursoulImg}
                 alt="Firebee Headband"
-                width={628}
-                height={392}
+                className="md:w-[628px] md:h-[392px] h-[203px] w-[325px]"
               />
             </div>
             <div className="flex gap-4 overflow-x-auto pb-4">
@@ -159,9 +158,7 @@ const Hero = () => {
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h2 className="text-2xl font-semibold mb-4">
-                Founder&null;s Kit
-              </h2>
+              <h2 className="text-2xl font-semibold mb-4">Founder,s Kit</h2>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-center">
                   <svg
