@@ -3,6 +3,8 @@ import Image from "next/image";
 import HeaderBg from "@/public/HeaderBg.svg";
 import HeaderBgMb from "@/public/HeaderBgMb.svg";
 import FireBeeLogo from "@/public/FireBeeLogo.svg";
+import ProfileImg from "@/public/Profile.svg";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -17,25 +19,49 @@ const Header = () => {
         alt="Header Bg Mb"
         className="min-w-full md:hidden"
       />
-      <div className="container">
-        <div className="py-[34px] px-[29px] gap-11 flex items-center">
-          <Image src={FireBeeLogo} alt="FireBee Logo" />
-          <nav className="hidden lg:block space-x-14">
-            <a href="#" className="text-xl tracking-wide">
-              How It Works
-            </a>
-            <a href="#" className="text-xl tracking-wide">
-              Signals
-            </a>
-            <a href="#" className="text-xl tracking-wide">
-              Reviews
-            </a>
-            <a href="#" className="text-xl tracking-wide">
-              Blog
-            </a>
-          </nav>
+      <nav className="">
+        <div className="py-[18px] px-[30px]">
+          <div className="flex justify-between h-16">
+            <div className="flex">
+              <div className="flex-shrink-0 flex items-center">
+                <Link href="/" className="text-2xl font-bold text-blue-500">
+                  <Image src={FireBeeLogo} alt="FireBee Logo" />
+                </Link>
+              </div>
+              <div className="hidden sm:ml-10 sm:flex sm:space-x-12">
+                <Link
+                  href="/how-it-works"
+                  className="border-transparent text-gray-500 transition hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-xl font-medium"
+                >
+                  How It Works
+                </Link>
+                <Link
+                  href="/signals"
+                  className="border-transparent text-gray-500 transition hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-xl font-medium"
+                >
+                  Signals
+                </Link>
+                <Link
+                  href="/reviews"
+                  className="border-transparent text-gray-500 transition hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-xl font-medium"
+                >
+                  Reviews
+                </Link>
+                <Link
+                  href="/blog"
+                  className="border-transparent text-gray-500 transition hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-xl font-medium"
+                >
+                  Blog
+                </Link>
+              </div>
+            </div>
+            <div className="hidden sm:ml-6 sm:flex sm:items-center">
+              <button>Buy Now</button>
+            </div>
+            <div className="-mr-2 flex items-center sm:hidden"></div>
+          </div>
         </div>
-      </div>
+      </nav>
     </header>
   );
 };
