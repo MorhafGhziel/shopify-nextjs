@@ -110,7 +110,7 @@ const Hero = () => {
               Order today and receive your Firebee by June 15th, 2021
             </p>
 
-            <div className="bg-white rounded-lg shadow-md p-6 mb-6">
+            <div className="bg-white rounded-lg shadow-md p-6 mb-6 cursor-pointer hover:bg-gray-100 transition">
               <div className="md:flex flex-none pb-4 md:justify-between">
                 <h2 className="text-2xl font-semibold mb-4">
                   Firebee Starter Kit
@@ -191,7 +191,7 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md p-6 mb-6">
+            <div className="bg-white rounded-lg shadow-md p-6 mb-6 cursor-pointer hover:bg-gray-100 transition">
               <div className="md:flex md:justify-between mb-4 flex-none">
                 <h2 className="text-2xl font-semibold mb-4">Founder,s Kit</h2>
                 <span className="md:text-3xl text-2xl font-light  text-gray-400">
@@ -258,6 +258,7 @@ const Hero = () => {
                 customers to make small payments of $73 a month.
               </p>
             </div>
+
             <div className="bg-[#07C961] md:py-6 py-2 rounded-full cursor-pointer hover:bg-green-600 transition">
               <div className="flex justify-center items-center text-center">
                 <button className="text-white font-poppins text-3xl">
