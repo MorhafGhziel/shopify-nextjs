@@ -14,6 +14,12 @@ import Union2 from "@/public/Union2.svg";
 import Union3 from "@/public/Union3.svg";
 import Union4 from "@/public/Union4.svg";
 import RightArrow from "@/public/RightArrow.svg";
+import VisaImage from "@/public/Visa.svg";
+import MasterCard from "@/public/MasterCard.svg";
+import AmericanExpress from "@/public/AmericanExpress.svg";
+import MesreTro from "@/public/MesreTro.svg";
+import PayBal from "@/public/PayBal.svg";
+import Afram from "@/public/Afram.svg";
 
 const Hero = () => {
   return (
@@ -252,13 +258,45 @@ const Hero = () => {
                 customers to make small payments of $73 a month.
               </p>
             </div>
-            <div className="bg-[#07C961] py-6 rounded-full cursor-pointer hover:bg-green-500 transition">
+            <div className="bg-[#07C961] md:py-6 py-2 rounded-full cursor-pointer hover:bg-green-600 transition">
               <div className="flex justify-center items-center text-center">
                 <button className="text-white font-poppins text-3xl">
                   Add to Cart
                 </button>
                 <Image src={RightArrow} alt="Right Arrow" />
               </div>
+            </div>
+            <div className="flex gap-2 mt-4 justify-center">
+              <Image
+                src={VisaImage}
+                alt="Visa Image"
+                className="w-[49.4px] h-[39px] md:w-[64px] md:h-[44px]"
+              />
+              <Image
+                src={MasterCard}
+                alt="master Image"
+                className="w-[49.4px] h-[39px] md:w-[64px] md:h-[44px]"
+              />
+              <Image
+                src={AmericanExpress}
+                alt="AmericanExpress Image"
+                className="w-[49.4px] h-[39px] md:w-[64px] md:h-[44px]"
+              />
+              <Image
+                src={MesreTro}
+                alt="MesreTro Image"
+                className="w-[49.4px] h-[39px] md:w-[64px] md:h-[44px]"
+              />
+              <Image
+                src={PayBal}
+                alt="Paybal Image"
+                className="w-[49.4px] h-[39px] md:w-[64px] md:h-[44px]"
+              />
+              <Image
+                src={Afram}
+                alt="afram Image"
+                className="w-[49.4px] h-[39px] md:w-[64px] md:h-[44px]"
+              />
             </div>
           </div>
         </div>
