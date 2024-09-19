@@ -67,19 +67,21 @@ const Hero = () => {
 
           {/* Right column */}
           <div className="lg:w-1/2">
-            <h1 className="text-3xl font-bold mb-2 tracking-wide">
+            <h1 className="text-3xl font-bold mb-2 tracking-wide flex md:justify-normal justify-center">
               Firebee Headband
             </h1>
-            <div className="flex items-center mb-2">
+            <div className="flex items-center mb-2 md:justify-normal justify-center">
               {[1, 2, 3, 4, 5].map((star) => (
                 <Star
                   key={star}
-                  className="w-5 h-5 text-yellow-400 fill-current"
+                  className="w-5 h-5 text-[#FFAD00] mx-1.5 fill-current"
                 />
               ))}
-              <span className="ml-2 text-gray-600">267 Reviews</span>
+              <span className="ml-2 text-gray-600 text-xl font-light">
+                267 Reviews
+              </span>
             </div>
-            <p className="text-gray-600 mb-6">
+            <p className="text-gray-600 mb-6 text-center md:text-left">
               Order today and receive your Firebee by June 15th, 2021
             </p>
 
