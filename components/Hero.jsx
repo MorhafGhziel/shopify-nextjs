@@ -13,6 +13,7 @@ import Union1 from "@/public/Union1.svg";
 import Union2 from "@/public/Union2.svg";
 import Union3 from "@/public/Union3.svg";
 import Union4 from "@/public/Union4.svg";
+import RightArrow from "@/public/RightArrow.svg";
 
 const Hero = () => {
   return (
@@ -20,7 +21,7 @@ const Hero = () => {
       <div className="container mx-auto ">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Left column */}
-          <div className="lg:w-1/2 ">
+          <div className="lg:w-1/2">
             <div className="flex gap-4">
               <Image
                 src={HeroImg1}
@@ -68,7 +69,7 @@ const Hero = () => {
               />
             </div>
             <div className="items-center justify-center mx-24 hidden md:block">
-              <div className="flex gap-4 max-w-[420px] font-light">
+              <div className="flex gap-4 max-w-[420px] mt-10 font-light">
                 <Image src={Union1} alt="Union 1" />
                 <p>30-day Money-back Guarantee</p>
                 <Image src={Union2} alt="Union 2" />
@@ -184,7 +185,7 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md p-6">
+            <div className="bg-white rounded-lg shadow-md p-6 mb-6">
               <div className="md:flex md:justify-between mb-4 flex-none">
                 <h2 className="text-2xl font-semibold mb-4">Founder,s Kit</h2>
                 <span className="md:text-3xl text-2xl font-light  text-gray-400">
@@ -250,6 +251,14 @@ const Hero = () => {
                 fee. The Founders is kit can be paid through Affirm allowing
                 customers to make small payments of $73 a month.
               </p>
+            </div>
+            <div className="bg-[#07C961] py-6 rounded-full cursor-pointer hover:bg-green-500 transition">
+              <div className="flex justify-center items-center text-center">
+                <button className="text-white font-poppins text-3xl">
+                  Add to Cart
+                </button>
+                <Image src={RightArrow} alt="Right Arrow" />
+              </div>
             </div>
           </div>
         </div>
