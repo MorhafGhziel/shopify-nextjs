@@ -36,7 +36,7 @@ const Hero = () => {
                 className="md:w-[628px] md:h-[392px] h-[203px] w-[325px]"
               />
             </div>
-            <div className="flex gap-4 overflow-x-auto pb-4">
+            <div className="flex gap-4 md:px-6 px-0 pb-4 md:justify-normal justify-center">
               <Image
                 src={CursoulSmImg1}
                 alt="cursol sm img"
