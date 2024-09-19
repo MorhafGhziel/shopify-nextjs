@@ -9,7 +9,6 @@ import CursoulSmImg2 from "@/public/CursoulSmImg2.svg";
 import CursoulSmImg3 from "@/public/CursoulSmImg3.svg";
 import CursoulSmImg4 from "@/public/CursoulSmImg4.svg";
 import CursoulSmImg5 from "@/public/CursoulSmImg5.svg";
-import CheckMarkIcon from "@/public/CheckMarkIcon.svg";
 
 const Hero = () => {
   return (
@@ -18,7 +17,7 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Left column */}
           <div className="lg:w-1/2">
-            <div className="flex gap-4 mb-4">
+            <div className="flex gap-4">
               <Image
                 src={HeroImg1}
                 alt="ICNIRP Logo"
@@ -87,9 +86,19 @@ const Hero = () => {
             </p>
 
             <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-              <h2 className="text-2xl font-semibold mb-4">
-                Firebee Starter Kit
-              </h2>
+              <div className="md:flex flex-none pb-4 md:justify-between">
+                <h2 className="text-2xl font-semibold mb-4">
+                  Firebee Starter Kit
+                </h2>
+                <div className="flex gap-2">
+                  <span className="md:text-3xl text-2xl font-light text-gray-400 line-through">
+                    $999.00
+                  </span>
+                  <span className="md:text-3xl text-2xl font-light  text-gray-400">
+                    $379.00
+                  </span>
+                </div>
+              </div>
               <div className="bg-gradient-to-r from-[#A34D9F] to-[#275FD0] text-white text-sm font-semibold py-1 px-3 rounded-full inline-block mb-4">
                 MOST POPULAR KIT
               </div>
@@ -111,7 +120,7 @@ const Hero = () => {
                   </svg>
                   Access to 7 signals (and future signal releases)
                 </li>
-                <li className="flex items-center">
+                <li className="flex items-center text-[#3F3631] font-light">
                   <svg
                     className="w-5 h-5 text-white bg-gradient-to-r from-[#67CFE9] to-[#5EEA9F] rounded-full mr-2"
                     fill="none"
@@ -128,7 +137,7 @@ const Hero = () => {
                   </svg>
                   Firebee Headband
                 </li>
-                <li className="flex items-center">
+                <li className="flex items-center text-[#3F3631] font-light">
                   <svg
                     className="w-5 h-5 text-white bg-gradient-to-r from-[#67CFE9] to-[#5EEA9F] rounded-full mr-2"
                     fill="none"
@@ -146,24 +155,26 @@ const Hero = () => {
                   $19/month membership, first 2 months free
                 </li>
               </ul>
-              <p className="text-sm text-gray-600 mb-4">
+              <p className="text-sm text-gray-600 mb-4 max-w-[700px]">
                 The starter kit is the most affordable way to get started with
-                $299 for the Firebee headband and access to the entire Firebee
-                Signal Catalogue for only $19 a month. Membership can be
-                cancelled anytime. No contracts. Satisfaction guaranteed.
-              </p>
-              <div className="flex items-center justify-between">
-                <span className="text-3xl font-bold">$299.00</span>
-                <span className="text-lg text-gray-500 line-through">
-                  $999.00
+                Firebee. Pay $299 for the Firebee headband and access to the
+                entire Firebee Signal Catalogue for only $19 a month.
+                <span className="font-bold mx-1">
+                  Membership can be cancelled anytime. No contracts.
+                  Satisfaction guaranteed.
                 </span>
-              </div>
+              </p>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h2 className="text-2xl font-semibold mb-4">Founder,s Kit</h2>
+              <div className="md:flex md:justify-between mb-4 flex-none">
+                <h2 className="text-2xl font-semibold mb-4">Founder,s Kit</h2>
+                <span className="md:text-3xl text-2xl font-light  text-gray-400">
+                  $799.00
+                </span>
+              </div>
               <ul className="space-y-2 mb-4">
-                <li className="flex items-center">
+                <li className="flex items-center text-[#3F3631] font-light">
                   <svg
                     className="w-5 h-5 text-white bg-gradient-to-r from-[#67CFE9] to-[#5EEA9F] rounded-full mr-2"
                     fill="none"
@@ -180,7 +191,7 @@ const Hero = () => {
                   </svg>
                   Access to 7 signals (and future signal releases)
                 </li>
-                <li className="flex items-center">
+                <li className="flex items-center text-[#3F3631] font-light">
                   <svg
                     className="w-5 h-5 text-white bg-gradient-to-r from-[#67CFE9] to-[#5EEA9F] rounded-full mr-2"
                     fill="none"
@@ -197,7 +208,7 @@ const Hero = () => {
                   </svg>
                   Firebee Headband
                 </li>
-                <li className="flex items-center">
+                <li className="flex items-center text-[#3F3631] font-light">
                   <svg
                     className="w-5 h-5 text-white bg-gradient-to-r from-[#67CFE9] to-[#5EEA9F] rounded-full mr-2"
                     fill="none"
