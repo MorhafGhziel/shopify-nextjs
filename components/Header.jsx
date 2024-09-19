@@ -21,7 +21,7 @@ const Header = () => {
         className="min-w-full md:hidden"
       />
       <nav>
-        <div className="py-[18px] px-[30px]">
+        <div className="sm:py-[18px] py-[6px] px-[30px]">
           <div className="flex justify-between h-16">
             <div className="flex">
               <div className="flex-shrink-0 flex items-center">
