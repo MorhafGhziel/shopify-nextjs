@@ -56,7 +56,7 @@ const Header = () => {
               </div>
             </div>
             <div className=" sm:ml-6 sm:flex sm:gap-10 justify-center items-center">
-              <button className="bg-[#07C961] text-white w-[154px] h-[65px] rounded-full">
+              <button className="bg-[#07C961] text-white w-[154px] h-[65px] rounded-full font-poppins">
                 Buy Now
               </button>
               <div className="bg-[#4B93D0] h-[53px] w-[53px] justify-center items-center flex rounded-full">
