@@ -7,6 +7,8 @@ import CursoulImg from "@/public/CursoulImg.svg";
 import CursoulSmImg1 from "@/public/CursoulSmImg1.svg";
 import CursoulSmImg2 from "@/public/CursoulSmImg2.svg";
 import CursoulSmImg3 from "@/public/CursoulSmImg3.svg";
+import CursoulSmImg4 from "@/public/CursoulSmImg4.svg";
+import CursoulSmImg5 from "@/public/CursoulSmImg5.svg";
 
 const Hero = () => {
   return (
@@ -48,6 +50,16 @@ const Hero = () => {
               />
               <Image
                 src={CursoulSmImg3}
+                alt="cursol sm img"
+                className="md:h-[100px] md:w-[100px] w-[54px] h-[54px]"
+              />
+              <Image
+                src={CursoulSmImg4}
+                alt="cursol sm img"
+                className="md:h-[100px] md:w-[100px] w-[54px] h-[54px]"
+              />
+              <Image
+                src={CursoulSmImg5}
                 alt="cursol sm img"
                 className="md:h-[100px] md:w-[100px] w-[54px] h-[54px]"
               />
