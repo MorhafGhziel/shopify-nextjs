@@ -9,6 +9,7 @@ import CursoulSmImg2 from "@/public/CursoulSmImg2.svg";
 import CursoulSmImg3 from "@/public/CursoulSmImg3.svg";
 import CursoulSmImg4 from "@/public/CursoulSmImg4.svg";
 import CursoulSmImg5 from "@/public/CursoulSmImg5.svg";
+import CheckMarkIcon from "@/public/CheckMarkIcon.svg";
 
 const Hero = () => {
   return (
@@ -77,11 +78,11 @@ const Hero = () => {
                   className="w-5 h-5 text-[#FFAD00] mx-1.5 fill-current"
                 />
               ))}
-              <span className="ml-2 text-gray-600 text-xl font-light">
+              <span className="ml-2 text-[#3F3631] text-xl font-light">
                 267 Reviews
               </span>
             </div>
-            <p className="text-gray-600 mb-6 text-center md:text-left">
+            <p className="text-[#3F3631] font-light mb-6 text-center md:text-left">
               Order today and receive your Firebee by June 15th, 2021
             </p>
 
@@ -89,13 +90,13 @@ const Hero = () => {
               <h2 className="text-2xl font-semibold mb-4">
                 Firebee Starter Kit
               </h2>
-              <div className="bg-purple-600 text-white text-sm font-semibold py-1 px-3 rounded-full inline-block mb-4">
+              <div className="bg-gradient-to-r from-[#A34D9F] to-[#275FD0] text-white text-sm font-semibold py-1 px-3 rounded-full inline-block mb-4">
                 MOST POPULAR KIT
               </div>
               <ul className="space-y-2 mb-4">
-                <li className="flex items-center">
+                <li className="flex items-center text-[#3F3631] font-light">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-white bg-gradient-to-r from-[#67CFE9] to-[#5EEA9F] rounded-full mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -112,7 +113,7 @@ const Hero = () => {
                 </li>
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-white bg-gradient-to-r from-[#67CFE9] to-[#5EEA9F] rounded-full mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -129,7 +130,7 @@ const Hero = () => {
                 </li>
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-white bg-gradient-to-r from-[#67CFE9] to-[#5EEA9F] rounded-full mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -164,7 +165,7 @@ const Hero = () => {
               <ul className="space-y-2 mb-4">
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-white bg-gradient-to-r from-[#67CFE9] to-[#5EEA9F] rounded-full mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -181,7 +182,7 @@ const Hero = () => {
                 </li>
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-white bg-gradient-to-r from-[#67CFE9] to-[#5EEA9F] rounded-full mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -198,7 +199,7 @@ const Hero = () => {
                 </li>
                 <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-green-500 mr-2"
+                    className="w-5 h-5 text-white bg-gradient-to-r from-[#67CFE9] to-[#5EEA9F] rounded-full mr-2"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
