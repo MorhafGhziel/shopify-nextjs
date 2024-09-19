@@ -17,7 +17,16 @@ const Header = () => {
         alt="Header Bg Mb"
         className="min-w-full md:hidden"
       />
-      <div className="container"></div>
+      <div className="container">
+        <div className="py-[34px] px-[29px] gap-11 flex">
+          <Image src={FireBeeLogo} alt="FireBee Logo" />
+          <nav className="hidden lg:inline-block">
+            <a href="#" className="text-xl tracking-wide">
+              How It Works
+            </a>
+          </nav>
+        </div>
+      </div>
     </header>
   );
 };
