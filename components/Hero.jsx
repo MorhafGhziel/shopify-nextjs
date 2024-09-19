@@ -6,6 +6,7 @@ import HeroImg2 from "@/public/HeroImg2.svg";
 import CursoulImg from "@/public/CursoulImg.svg";
 import CursoulSmImg1 from "@/public/CursoulSmImg1.svg";
 import CursoulSmImg2 from "@/public/CursoulSmImg2.svg";
+import CursoulSmImg3 from "@/public/CursoulSmImg3.svg";
 
 const Hero = () => {
   return (
@@ -42,6 +43,11 @@ const Hero = () => {
               />
               <Image
                 src={CursoulSmImg2}
+                alt="cursol sm img"
+                className="md:h-[100px] md:w-[100px] w-[54px] h-[54px]"
+              />
+              <Image
+                src={CursoulSmImg3}
                 alt="cursol sm img"
                 className="md:h-[100px] md:w-[100px] w-[54px] h-[54px]"
               />
