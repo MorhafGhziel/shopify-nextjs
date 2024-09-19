@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Star } from "lucide-react";
-import HeroImg1 from "@/public/HeroImg1.svg";
+import HeroImg1 from "@/public/Heroimg1.svg";
 import HeroImg2 from "@/public/HeroImg2.svg";
 import CursoulImg from "@/public/CursoulImg.svg";
 import CursoulSmImg1 from "@/public/CursoulSmImg1.svg";
