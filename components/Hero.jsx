@@ -9,6 +9,10 @@ import CursoulSmImg2 from "@/public/CursoulSmImg2.svg";
 import CursoulSmImg3 from "@/public/CursoulSmImg3.svg";
 import CursoulSmImg4 from "@/public/CursoulSmImg4.svg";
 import CursoulSmImg5 from "@/public/CursoulSmImg5.svg";
+import Union1 from "@/public/Union1.svg";
+import Union2 from "@/public/Union2.svg";
+import Union3 from "@/public/Union3.svg";
+import Union4 from "@/public/Union4.svg";
 
 const Hero = () => {
   return (
@@ -16,7 +20,7 @@ const Hero = () => {
       <div className="container mx-auto ">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Left column */}
-          <div className="lg:w-1/2">
+          <div className="lg:w-1/2 ">
             <div className="flex gap-4">
               <Image
                 src={HeroImg1}
@@ -62,6 +66,20 @@ const Hero = () => {
                 alt="cursol sm img"
                 className="md:h-[100px] md:w-[100px] w-[54px] h-[54px]"
               />
+            </div>
+            <div className="items-center justify-center mx-24 hidden md:block">
+              <div className="flex gap-4 max-w-[420px] font-light">
+                <Image src={Union1} alt="Union 1" />
+                <p>30-day Money-back Guarantee</p>
+                <Image src={Union2} alt="Union 2" />
+                <p>Free Shipping within USA</p>
+              </div>
+              <div className="flex gap-4 mt-5 max-w-[450px] font-light">
+                <Image src={Union3} alt="Union 3" />
+                <p>Signal Catalogue Updates Included</p>
+                <Image src={Union4} alt="Union 4" />
+                <p>Customer Support via E-mail, Phone, and Chat</p>
+              </div>
             </div>
           </div>
 
