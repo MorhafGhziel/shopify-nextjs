@@ -5,11 +5,11 @@ import Image from "next/image";
 const Guarantee = () => {
   return (
     <section className="py-12 px-20">
-      <div className="bg-[#FBFCFB] py-14 px-20">
-        <div>
+      <div className="bg-[#FBFCFB] py-14 px-20 flex gap-12">
+        <div className="flex-shrink-0">
           <Image src={GuaranteeImg} alt="Guarante Img" />
         </div>
-        <div>
+        <div className="">
           <h2>30 Day Money Back Guarantee</h2>
           <p>
             At Firebee we believe in building quality products that actually
