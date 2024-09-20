@@ -300,6 +300,29 @@ const Hero = () => {
               />
             </div>
           </div>
+          <div className="grid grid-cols-2 space-x-4 md:hidden">
+            <div className="text-center space-y-4 font-light">
+              <div className="justify-center items-center flex">
+                <Image src={Union1} alt="Union 1" />
+              </div>
+              <p>30-day Money-back Guarantee</p>
+
+              <div className="justify-center items-center flex">
+                <Image src={Union3} alt="Union 3" />
+              </div>
+              <p>Signal Catalogue Updates Included</p>
+            </div>
+            <div className="text-center max-w-[140px] space-y-4 font-light">
+              <div className="justify-center items-center flex">
+                <Image src={Union2} alt="Union 2" />
+              </div>
+              <p>Free Shipping within USA</p>
+              <div className="justify-center items-center flex">
+                <Image src={Union4} alt="Union 4" />
+              </div>
+              <p>Customer Support via E-mail, Phone, and Chat</p>
+            </div>
+          </div>
         </div>
       </div>
     </header>
