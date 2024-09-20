@@ -9,8 +9,10 @@ const Guarantee = () => {
         <div className="flex-shrink-0">
           <Image src={GuaranteeImg} alt="Guarante Img" />
         </div>
-        <div className="">
-          <h2>30 Day Money Back Guarantee</h2>
+        <div>
+          <h2 className=" text-5xl font-light text-[#3F3631]">
+            30 Day Money Back Guarantee
+          </h2>
           <p>
             At Firebee we believe in building quality products that actually
             work. Firebee and its partners have invested over $85 million in
