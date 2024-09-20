@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import BedTime from "@/public/BedTime.svg";
-import Deepleep from "@/public/Deepleep.svg";
+import Deepleep from "@/public/DeepSleep.svg";
 import Relax from "@/public/Relax.svg";
 import Calm from "@/public/Calm.svg";
 import Focus from "@/public/Focus.svg";
@@ -11,50 +11,50 @@ import FireBee from "@/public/FireBee.svg";
 
 const signals = [
   {
-    name: "Bedtime",
-    color: "bg-blue-300",
+    Image: <Image src={BedTime} alt="Bed Time" />,
+
     description:
       "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
   },
   {
-    name: "Deep Sleep",
-    color: "bg-indigo-900",
+    Image: <Image src={Deepleep} alt="Bed Time" />,
+
     description:
       "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
   },
   {
-    name: "Relax",
-    color: "bg-green-300",
+    Image: <Image src={Relax} alt="Bed Time" />,
+
     description:
       "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
   },
   {
-    name: "Calm",
-    color: "bg-green-200",
+    Image: <Image src={Calm} alt="Bed Time" />,
+
     description:
       "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
   },
   {
-    name: "Focus",
-    color: "bg-purple-300",
+    Image: <Image src={Focus} alt="Bed Time" />,
+
     description:
       "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
   },
   {
-    name: "Happy",
-    color: "bg-purple-600",
+    Image: <Image src={Happy} alt="Bed Time" />,
+
     description:
       "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
   },
   {
-    name: "Alert",
-    color: "bg-gradient-to-br from-red-400 to-purple-500",
+    Image: <Image src={Alert} alt="Bed Time" />,
+
     description:
       "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
   },
   {
-    name: "Love",
-    color: "bg-gradient-to-br from-red-400 to-purple-500",
+    Image: <Image src={FireBee} alt="Bed Time" />,
+
     description:
       "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
   },
