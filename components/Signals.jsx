@@ -1,5 +1,56 @@
 import React from "react";
 
+const signals = [
+  {
+    name: "Bedtime",
+    color: "bg-blue-300",
+    description:
+      "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
+  },
+  {
+    name: "Deep Sleep",
+    color: "bg-indigo-900",
+    description:
+      "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
+  },
+  {
+    name: "Relax",
+    color: "bg-green-300",
+    description:
+      "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
+  },
+  {
+    name: "Calm",
+    color: "bg-green-200",
+    description:
+      "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
+  },
+  {
+    name: "Focus",
+    color: "bg-purple-300",
+    description:
+      "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
+  },
+  {
+    name: "Happy",
+    color: "bg-purple-600",
+    description:
+      "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
+  },
+  {
+    name: "Alert",
+    color: "bg-gradient-to-br from-red-400 to-purple-500",
+    description:
+      "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
+  },
+  {
+    name: "Love",
+    color: "bg-gradient-to-br from-red-400 to-purple-500",
+    description:
+      "Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.",
+  },
+];
+
 const Signals = () => {
   return (
     <section>
