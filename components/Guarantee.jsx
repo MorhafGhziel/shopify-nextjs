@@ -7,7 +7,11 @@ const Guarantee = () => {
     <section className="py-12 px-20">
       <div className="bg-[#FBFCFB] py-14 px-20 flex gap-12 justify-center flex-wrap md:flex-none">
         <div className="flex-shrink-0">
-          <Image src={GuaranteeImg} alt="Guarante Img" />
+          <Image
+            src={GuaranteeImg}
+            alt="Guarante Img"
+            className="w-[200px] h-[200px] md:h-[292px] md:w-[292px]"
+          />
         </div>
         <div className="mt-6">
           <h2 className=" text-6xl font-light text-[#3F3631]">
