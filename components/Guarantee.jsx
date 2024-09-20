@@ -9,6 +9,10 @@ const Guarantee = () => {
         <div>
           <Image src={GuaranteeImg} alt="Guarante Img" />
         </div>
+        <div>
+          <h2></h2>
+          <p></p>
+        </div>
       </div>
     </section>
   );
