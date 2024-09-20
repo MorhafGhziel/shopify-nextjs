@@ -5,7 +5,7 @@ import Image from "next/image";
 const Guarantee = () => {
   return (
     <section className="py-12 px-20">
-      <div className="bg-[#FBFCFB] py-14 px-20 flex gap-12">
+      <div className="bg-[#FBFCFB] py-14 px-20 flex gap-12 justify-center">
         <div className="flex-shrink-0">
           <Image src={GuaranteeImg} alt="Guarante Img" />
         </div>
