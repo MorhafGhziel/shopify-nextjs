@@ -9,7 +9,7 @@ const Guarantee = () => {
         <div className="flex-shrink-0">
           <Image src={GuaranteeImg} alt="Guarante Img" />
         </div>
-        <div>
+        <div className="mt-4">
           <h2 className=" text-5xl font-light text-[#3F3631]">
             30 Day Money Back Guarantee
           </h2>
