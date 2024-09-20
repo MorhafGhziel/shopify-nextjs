@@ -71,13 +71,15 @@ const Signals = () => {
           A signal for every situation
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {signals.map((signal, idx) => (
-          <div key={idx}>
-            {signal.Image}
-            {signal.description}
-          </div>
-        ))}
+      <div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {signals.map((signal, idx) => (
+            <div key={idx} className="flex">
+              {signal.Image}
+              {signal.description}
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
