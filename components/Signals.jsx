@@ -1,4 +1,13 @@
 import React from "react";
+import Image from "next/image";
+import BedTime from "@/public/BedTime.svg";
+import Deepleep from "@/public/Deepleep.svg";
+import Relax from "@/public/Relax.svg";
+import Calm from "@/public/Calm.svg";
+import Focus from "@/public/Focus.svg";
+import Happy from "@/public/Happy.svg";
+import Alert from "@/public/Alert.svg";
+import FireBee from "@/public/FireBee.svg";
 
 const signals = [
   {
