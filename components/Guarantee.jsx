@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Guarantee = () => {
   return (
-    <section>
+    <section className="py-24 px-40">
       <div>
         <div>
           <Image src={GuaranteeImg} alt="Guarante Img" />
