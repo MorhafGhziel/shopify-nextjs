@@ -47,7 +47,7 @@ const Hero = () => {
                 className="md:w-[628px] md:h-[392px] h-[203px] w-[325px]"
               />
             </div>
-            <div className="flex gap-4 md:px-6 px-0 pb-4 md:justify-normal justify-center">
+            <div className="flex gap-4 md:px-6 px-0 pb-4  md:justify-start justify-center">
               <Image
                 src={CursoulSmImg1}
                 alt="cursol sm img"
@@ -74,18 +74,20 @@ const Hero = () => {
                 className="md:h-[100px] md:w-[100px] w-[54px] h-[54px]"
               />
             </div>
-            <div className="items-center justify-center mx-24 hidden md:block">
-              <div className="flex gap-4 max-w-[420px] mt-10 font-light">
+            <div className="items-center justify-center space-y-6 mx-24 hidden md:block">
+              <div className="flex gap-5 max-w-[450px] mt-10 font-light">
                 <Image src={Union1} alt="Union 1" />
-                <p>30-day Money-back Guarantee</p>
-                <Image src={Union2} alt="Union 2" />
-                <p>Free Shipping within USA</p>
-              </div>
-              <div className="flex gap-4 mt-5 max-w-[450px] font-light">
+                <p className="mx-1">30-day Money-back Guarantee</p>
                 <Image src={Union3} alt="Union 3" />
                 <p>Signal Catalogue Updates Included</p>
+              </div>
+              <div className="flex gap-5 mt-5 max-w-[500px] font-light">
+                <Image src={Union2} alt="Union 2" />
+                <p>Free Shipping within USA</p>
                 <Image src={Union4} alt="Union 4" />
-                <p>Customer Support via E-mail, Phone, and Chat</p>
+                <p className="max-w-[200px]">
+                  Customer Support via E-mail, Phone, and Chat
+                </p>
               </div>
             </div>
           </div>
