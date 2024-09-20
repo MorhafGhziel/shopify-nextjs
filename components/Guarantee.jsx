@@ -10,8 +10,14 @@ const Guarantee = () => {
           <Image src={GuaranteeImg} alt="Guarante Img" />
         </div>
         <div>
-          <h2></h2>
-          <p></p>
+          <h2>30 Day Money Back Guarantee</h2>
+          <p>
+            At Firebee we believe in building quality products that actually
+            work. Firebee and its partners have invested over $85 million in
+            research and development to create the highest quality wearable for
+            customers to enjoy. If for any reason if you are not satisfied with
+            your Firebee headband we will happily refund your purchase.{" "}
+          </p>
         </div>
       </div>
     </section>
