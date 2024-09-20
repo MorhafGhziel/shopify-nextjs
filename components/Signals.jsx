@@ -8,6 +8,7 @@ import Focus from "@/public/Focus.svg";
 import Happy from "@/public/Happy.svg";
 import Alert from "@/public/Alert.svg";
 import FireBee from "@/public/FireBee.svg";
+import SignalsBg from "@/public/SignalsBgImg.svg";
 
 const signals = [
   {
