@@ -94,6 +94,11 @@ const Signals = () => {
           ))}
         </div>
       </div>
+      <Image
+        src={SignalsBg}
+        alt="Signals Bg"
+        className="absolute z-[-10] top-[570px] left-[1200px] hidden lg:block"
+      />
     </section>
   );
 };
