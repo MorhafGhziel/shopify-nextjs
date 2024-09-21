@@ -3,11 +3,20 @@ import PersonalizedImg from "@/public/PersonalizedImg.svg";
 import CheckIcon from "@/public/CheckIcon.svg";
 import CheckIconBlack from "@/public/CheckIconBlack.svg";
 import Image from "next/image";
+import DeepTxt from "@/public/DeepTxt.svg";
 
 const personalizedSignals = [
   {
     Image: <Image src={CheckIconBlack} alt="Check Icon Black" />,
-    description: "Can’t sleep? Turn on the deep sleep signal ",
+    description: (
+      <div>
+        <span>Can’t sleep? Turn on the </span>
+        <span className="bg-gradient-to-r from-[#2E034B] via-[#002182] to-[#2E034B] text-transparent bg-clip-text font-bold">
+          deep sleep
+        </span>
+        <span> signal</span>
+      </div>
+    ),
   },
   {
     Image: <Image src={CheckIcon} alt="Check Icon" />,
@@ -29,7 +38,7 @@ const personalizedSignals = [
 
 const PersonalizedSignals = () => {
   return (
-    <section className="bg-[#FBFCFB] py-14">
+    <section className="bg-[#FBFCFB] pt-14">
       <div className="text-center">
         <h2 className="text-6xl font-extralight tracking-wide text-[#3F3631]">
           What will Firebee do for me?
@@ -39,7 +48,28 @@ const PersonalizedSignals = () => {
           state
         </p>
       </div>
-      <div></div>
+      <div className="flex">
+        <div className="md:ml-[200px] ml-0 mx-10">
+          <Image
+            src={PersonalizedImg}
+            alt="Personalized Img"
+            className="hidden md:block"
+          />
+        </div>
+        <div className="mt-16">
+          {personalizedSignals.map((signal, idx) => (
+            <div
+              key={idx}
+              className="flex items-center md:gap-12 gap-6 mb-8 gap-y-12"
+            >
+              {signal.Image}
+              <div className="font-extralight tracking-wider text-2xl">
+                {signal.description}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </section>
   );
 };
