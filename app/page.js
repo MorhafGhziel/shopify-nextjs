@@ -6,6 +6,7 @@ import Signals from "@/components/Signals";
 import PersonalizedSignals from "@/components/PersonalizedSignals";
 import Box from "@/components/Box";
 import Frequently from "@/components/Frequently";
+import Footer from "@/components/Footer";
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
       <PersonalizedSignals />
       <Box />
       <Frequently />
+      <Footer />
     </>
   );
 };
