@@ -63,7 +63,12 @@ const signals = [
 
 const Signals = () => {
   return (
-    <section>
+    <section className="relative">
+      <Image
+        src={SignalsBg}
+        alt="Signals Bg"
+        className="absolute z-[-10] left-[-10px] top-[-30px] hidden lg:block"
+      />
       <div className="text-center">
         <h2 className="text-5xl font-extralight tracking-wide text-[#3F3631]">
           Firebee Signals
@@ -73,7 +78,7 @@ const Signals = () => {
         </p>
       </div>
       <div className="p-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 z-10">
           {signals.map((signal, idx) => (
             <div
               key={idx}
