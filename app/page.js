@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 import Guarantee from "@/components/Guarantee";
 import Signals from "@/components/Signals";
 import PersonalizedSignals from "@/components/PersonalizedSignals";
-import { Box } from "lucide-react";
+import Box from "@/components/Box";
 
 const page = () => {
   return (
