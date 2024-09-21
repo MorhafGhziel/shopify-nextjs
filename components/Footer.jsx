@@ -8,6 +8,7 @@ import InstaGram from "@/public/InstaGram.svg";
 import FaceBook from "@/public/FaceBook.svg";
 import Twitter from "@/public/Twitter.svg";
 import Pinterest from "@/public/Pinterest.svg";
+import FireBeeLogo from "@/public/WhiteFireBee.svg";
 
 const Footer = () => {
   return (
@@ -91,6 +92,12 @@ const Footer = () => {
             borderColor: "#525252",
           }}
         />
+      </div>
+      <div className="px-20 py-10 text-white">
+        <div className="flex justify-between">
+          <Image src={FireBeeLogo} alt="fire bee logo" />
+          <p>Privacy Policy Terms of Service</p>
+        </div>
       </div>
     </footer>
   );
