@@ -1,4 +1,31 @@
 import React from "react";
+import PersonalizedImg from "@/public/PersonalizedImg.svg";
+import CheckIcon from "@/public/CheckIcon.svg";
+import CheckIconBlack from "@/public/CheckIconBlack.svg";
+import Image from "next/image";
+
+const personalizedSignals = [
+  {
+    Image: <Image src={CheckIconBlack} alt="Check Icon Black" />,
+    description: "Can’t sleep? Turn on the deep sleep signal ",
+  },
+  {
+    Image: <Image src={CheckIcon} alt="Check Icon" />,
+    description: "Feeling tired? Turn on the alert signal ",
+  },
+  {
+    Image: <Image src={CheckIcon} alt="Check Icon" />,
+    description: "Feeling anxious? Turn on the calm signal",
+  },
+  {
+    Image: <Image src={CheckIcon} alt="Check Icon" />,
+    description: "Feeling unproductive? Turn on the focus signal ",
+  },
+  {
+    Image: <Image src={CheckIcon} alt="Check Icon" />,
+    description: "Feeling blue? Turn on the happy signal ",
+  },
+];
 
 const PersonalizedSignals = () => {
   return (
@@ -12,6 +39,7 @@ const PersonalizedSignals = () => {
           state
         </p>
       </div>
+      <div></div>
     </section>
   );
 };
