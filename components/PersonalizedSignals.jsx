@@ -7,7 +7,13 @@ import DeepTxt from "@/public/DeepTxt.svg";
 
 const personalizedSignals = [
   {
-    Image: <Image src={CheckIconBlack} alt="Check Icon Black" />,
+    Image: (
+      <Image
+        src={CheckIconBlack}
+        alt="Check Icon Black"
+        className="ml-[-5px]"
+      />
+    ),
     description: (
       <div>
         <span>Can’t sleep? Turn on the </span>
@@ -20,19 +26,51 @@ const personalizedSignals = [
   },
   {
     Image: <Image src={CheckIcon} alt="Check Icon" />,
-    description: "Feeling tired? Turn on the alert signal ",
+    description: (
+      <div>
+        <span>Feeling tired? Turn on the </span>
+        <span className="bg-gradient-to-r from-[#FF225E] to-[#9D2AC6] text-transparent bg-clip-text font-bold">
+          alert
+        </span>
+        <span> signal</span>
+      </div>
+    ),
   },
   {
     Image: <Image src={CheckIcon} alt="Check Icon" />,
-    description: "Feeling anxious? Turn on the calm signal",
+    description: (
+      <div>
+        <span>Feeling anxious? Turn on the </span>
+        <span className="bg-gradient-to-r from-[#8BF2B5] to-[#35C8EB] text-transparent bg-clip-text font-bold">
+          calm
+        </span>
+        <span> signal</span>
+      </div>
+    ),
   },
   {
     Image: <Image src={CheckIcon} alt="Check Icon" />,
-    description: "Feeling unproductive? Turn on the focus signal ",
+    description: (
+      <div>
+        <span>Feeling unproductive? Turn on the </span>
+        <span className="bg-gradient-to-r from-[#E280DA] to-[#6694EF] text-transparent bg-clip-text font-bold">
+          focus
+        </span>
+        <span> signal</span>
+      </div>
+    ),
   },
   {
     Image: <Image src={CheckIcon} alt="Check Icon" />,
-    description: "Feeling blue? Turn on the happy signal ",
+    description: (
+      <div>
+        <span>Feeling blue? Turn on the </span>
+        <span className="bg-gradient-to-r from-[#A34D9F] to-[#275FD0] text-transparent bg-clip-text font-bold">
+          happy
+        </span>
+        <span> signal</span>
+      </div>
+    ),
   },
 ];
 
