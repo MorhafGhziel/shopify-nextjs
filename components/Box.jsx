@@ -2,6 +2,12 @@ import React from "react";
 import Image from "next/image";
 import CheckIcon from "@/public/CheckIcon.svg";
 import BoxImg from "@/public/BoxImg.svg";
+import GqLogo from "@/public/GqLogo.svg";
+import GuardianLogo from "@/public/GuardianLogo.svg";
+import NewYorkTimesLogo from "@/public/NewYorkTimesLogo.svg";
+import MashableLogo from "@/public/MashableLogo.svg";
+import CnnLogo from "@/public/CnnLogo.svg";
+import WallStreetJournalLogo from "@/public/WallStreetJournalLogo.svg";
 
 const Box = () => {
   return (
@@ -15,20 +21,18 @@ const Box = () => {
       </div>
 
       <div className="text-center mb-12">
-        <h3 className="text-lg font-light text-[#3F3631] tracking-widest mb-6">
+        <h3 className="md:text-lg text-xl font-light text-[#3F3631] tracking-widest mb-6">
           FEATURED ON
         </h3>
         <div className="flex justify-center items-center space-x-8 flex-wrap mb-8">
-          <Image src="" alt="GQ Logo" width={60} height={30} />
-          <Image src="" alt="The Guardian Logo" width={100} height={30} />
-          <Image src="" alt="The New York Times Logo" width={100} height={30} />
-          <Image src="" alt="Mashable Logo" width={100} height={30} />
-          <Image src="" alt="CNN Logo" width={60} height={30} />
+          <Image src={GqLogo} alt="GQ Logo" />
+          <Image src={GuardianLogo} alt="The Guardian Logo" />
+          <Image src={NewYorkTimesLogo} alt="The New York Times Logo" />
+          <Image src={MashableLogo} alt="Mashable Logo" />
+          <Image src={CnnLogo} alt="CNN Logo" />
           <Image
-            src=""
+            src={WallStreetJournalLogo}
             alt="The Wall Street Journal Logo"
-            width={120}
-            height={30}
           />
         </div>
         <div className="border-b border-[#C4C4C4] border-1 w-full"></div>
@@ -39,7 +43,7 @@ const Box = () => {
           (item, index) => (
             <div
               key={index}
-              className="flex items-center justify-center space-x-2"
+              className="flex items-center justify-start md:justify-center space-x-2"
             >
               <Image src={CheckIcon} alt="Check icon" />
               <span className="text-2xl text-[#3F3631]">{item}</span>
