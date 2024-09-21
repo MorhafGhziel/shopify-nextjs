@@ -5,6 +5,7 @@ import Guarantee from "@/components/Guarantee";
 import Signals from "@/components/Signals";
 import PersonalizedSignals from "@/components/PersonalizedSignals";
 import Box from "@/components/Box";
+import Frequently from "@/components/Frequently";
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
       <Signals />
       <PersonalizedSignals />
       <Box />
+      <Frequently />
     </>
   );
 };
