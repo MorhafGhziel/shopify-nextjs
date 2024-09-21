@@ -2,8 +2,8 @@ import React from "react";
 
 const PersonalizedSignals = () => {
   return (
-    <section className="bg-[#FBFCFB]">
-      <div>
+    <section className="bg-[#FBFCFB] py-14">
+      <div className="text-center">
         <h2 className="text-6xl font-extralight tracking-wide text-[#3F3631]">
           What will Firebee do for me?
         </h2>
