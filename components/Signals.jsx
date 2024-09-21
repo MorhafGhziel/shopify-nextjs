@@ -63,7 +63,7 @@ const signals = [
 
 const Signals = () => {
   return (
-    <section className="relative">
+    <section className="relative overflow-x-clip">
       <Image
         src={SignalsBg}
         alt="Signals Bg"
