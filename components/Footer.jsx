@@ -9,12 +9,14 @@ import FaceBook from "@/public/FaceBook.svg";
 import Twitter from "@/public/Twitter.svg";
 import Pinterest from "@/public/Pinterest.svg";
 import FireBeeLogo from "@/public/WhiteFireBee.svg";
+import GradBg from "@/public/GradBg.png";
 
 const Footer = () => {
   return (
-    <footer className="overflow-hidden bg-[#12151A]">
+    <footer className="overflow-x-clip z-10 bg-[#12151A] relative">
+      <div className="absolute h-[300px] w-[1600px] bottom-0 left-1/2 -translate-x-1/2 bg-gradient-to-r from-purple-700/80 to-pink-600/80 [mask-image:radial-gradient(50%_50%_at_bottom_center,black,transparent)] -z-10"></div>
       <div className="bg-gradient-to-r from-[#8BF2B5] to-[#35C8EB] w-full h-[10px]"></div>
-      <div className=" px-20 py-10 text-white">
+      <div className="md:px-20 px-6 md:py-10 py-8 text-white">
         <div className="md:flex grid grid-cols-2 md:gap-40 gap-20 mb-8">
           <div>
             <h2 className="text-2xl mb-4 text-[#FFFFFF] font-light tracking-wide">
@@ -93,10 +95,25 @@ const Footer = () => {
           }}
         />
       </div>
-      <div className="px-20 py-10 text-white">
-        <div className="flex justify-between">
+      <div className="md:px-20 px-6 md:py-10 py-8 text-white">
+        <div className="md:flex flex-wrap justify-between">
           <Image src={FireBeeLogo} alt="fire bee logo" />
-          <p>Privacy Policy Terms of Service</p>
+          <p className="text-[#A4A4A5] font-extralight md:block hidden">
+            Privacy Policy Terms of Service
+          </p>
+        </div>
+        <div className="mt-8 text-[#A4A4A5] font-extralight">
+          <p className="md:text-base text-xl">
+            Copyright © 2020 Firebee Technologies, Inc. All rights reserved.
+          </p>
+          <p className="mt-4 md:text-sm">
+            The statements on this page have not been evaluated by the FDA. This
+            product is not intended to diagnose, treat, cure, or prevent any
+            disease.
+          </p>
+          <p className="text-[#A4A4A5] mt-8 tracking-wide font-extralight block md:hidden">
+            Privacy Policy Terms of Service
+          </p>
         </div>
       </div>
     </footer>
