@@ -36,7 +36,7 @@ const Footer = () => {
                   href="/product"
                   className="hover:text-gray-300 text-[#FFFFFF] font-light tracking-wide"
                 >
-                  Product
+                  Producacact
                 </Link>
               </li>
             </ul>
