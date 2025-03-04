@@ -51,7 +51,7 @@ const Footer = () => {
                   href="/activate"
                   className="hover:text-gray-300 text-[#FFFFFF] font-light tracking-wide"
                 >
-                  Activatcvsvse
+                  Activatce
                 </Link>
               </li>
               <li>
